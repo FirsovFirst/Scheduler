@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Scheduler</string>
+    <string name="note_name">Введите название</string>
+    <string name="note_text">Напоминание</string>
+    <string name="save">Сохранить</string>
+    <string name="timeSet">Установить дату и время</string>
+    <string name="noteAdd">Добавить</string>
+</resources>

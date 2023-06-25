@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/MyMaterialTheme">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/note_name"
+        android:minHeight="200dp"
+        android:gravity="top"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/time_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="25dp"
+        android:text="XX:XX XX.XX.XXXX"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/alarm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/timeSet"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить"
+        android:layout_marginTop="125dp"
+        android:layout_marginHorizontal="100dp"/>
+
+    <ImageView
+        android:id="@+id/delete_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_notification_clear_all"
+        android:layout_marginHorizontal="100dp" />
+
+</LinearLayout>
